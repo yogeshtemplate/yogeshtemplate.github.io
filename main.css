@@ -1,0 +1,199 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color: floralwhite
+}
+
+.wrap {
+	width: 98%;
+	margin: 0 auto;
+}
+
+
+
+header 
+{
+	background-color: chocolate;
+	padding: 60px 60px 820px 60px;
+	text-align: center;
+	background-image: linear-gradient(transparent 50%, white), url('img/COFFEE PLANT.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+
+
+.menu {
+	
+	text-align: right;
+	
+}
+
+li {
+	list-style: none;
+	display: inline;
+	padding-right: 40px;
+	padding-left: 20px;
+}
+.menu-style {
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+	font-family: 'Averia Serif Libre', cursive;
+	
+	
+}
+
+.selected {
+	
+	color: crimson;
+	
+}
+
+.menu-style:hover {
+	color: crimson;
+	
+}
+
+
+.try {
+	background-color: floralwhite;
+	padding: 100px;
+	font-family: 'Averia Serif Libre', cursive;
+}
+
+.out {
+	background-color: floralwhite;
+
+	font-family: 'Averia Serif Libre', cursive;
+	padding: 0 100px;
+}
+
+img {
+	max-width: 100%;
+}
+.image1 {
+	width: 500px;
+	height: 500px;
+	float: left;
+	margin: 0 30px 50px 0;
+	border-radius: 40px;
+}
+
+.image2 {
+	width: 500px;
+	height: 500px;
+	float: right;
+	margin: 30px 0 30px 50px;
+	border-radius: 40px;
+	border-width: 2px;
+	border-shadow: 3px 3px 6px black;
+	border-style: solid;
+}
+
+
+.try {
+	text-align: left;	
+}
+
+h1 {
+	font-family: 'Artifika', serif;
+}
+
+p {
+	text-align: justify;
+	font-family: 'Averia Serif Libre', cursive;
+}
+
+footer {
+
+	background-color: floralwhite;
+	padding: 60px;
+	text-align: center;
+	background-image: linear-gradient(floralwhite, darkseagreen);
+	
+}
+
+.foot {
+	text-decoration: none;
+	color: darkred;
+	font-family: 'Averia Serif Libre', cursive;
+	font-size: 20px;
+	text-shadow: 4px 4px 8px floralwhite;
+
+}
+
+.yogi {
+	text-align: center;
+	font-family: 'Artifika', serif;
+	margin-top: 100px;
+	background-color: blanchedalmond;
+	padding: 50px;
+	border-radius: 30px;
+	background-image: linear-gradient(floralwhite, blanchedalmond, floralwhite);
+	border-width: 0;
+	border-bottom: solid;
+	
+}
+
+.name {
+	font-family: 'Averia Libre', cursive;
+	color: darkred;
+	text-shadow: 4px 4px 8px floralwhite;
+}
+
+
+.aboutus {
+	margin: 0 auto;
+	width: 90%;
+	padding-bottom: 50px;
+}
+
+.about {
+	padding: 0 0 10px 0;
+	border-bottom: solid;
+	margin-top: 30px;
+	text-align: left;
+}
+
+.profile {
+	border-radius: 30px;
+	height: 200px;
+	width: 150px;
+	float: left;
+	margin:0 50px 0 0;
+}
+
+.contact{
+	margin-bottom: 100px;
+	margin-top: 50px;
+}
+
+.yogesh {
+	font-family: 'Artifika', serif;
+	color:brown;
+	
+}
+
+.yogeshp
+{
+	color: brown;
+}
+
+.icon {
+	list-style: none;
+	text-decoration: none;
+	text-align: center;
+	display: inline;
+	font-size: 30px;
+	padding: 20px;
+	
+}
+
+@media (max-width: 768px) {
+	
+	.menu-style {
+		display: block;
+	}
+}
